@@ -32,12 +32,19 @@ logo.addEventListener("click", () => {
 // -------------
 // -------------
 
-ScrollReveal({
-   origin: 'top',
-   distance: '60px',
-   duration: 2000,
-   delay: 400,
-});
+if (screen.width <= 320) {
+   console.log("Hello World")
+   ScrollReveal({
+      mobile: false
+   });
+} else {
+   ScrollReveal({
+      origin: 'top',
+      distance: '32px',
+      duration: 2000,
+      delay: 400,
+   });
+}
 
 ScrollReveal().reveal('.hero__text');
 
