@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./css/main.css">
+   <script src="https://unpkg.com/scrollreveal"></script>
+   <title>Listenify</title>
+</head>
+<body>
+   <header>
+      <div class="nav__content">
+         <p class="nav__logo" id="logo"><a href="#home">Listenify</a></p>
+   
+         <svg class="nav__ham" id="hamburger" viewBox="0 0 29 18" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2 16H27" stroke-width="3" stroke-linecap="round"/>
+            <path d="M2 2H27" stroke-width="3" stroke-linecap="round"/>
+            <path d="M2 9H27" stroke-width="3" stroke-linecap="round"/>
+         </svg>
+   
+         <nav id="menu">
+            <ul class="nav__menu">
+               <li class="nav__links"><a href="#home">Home</a></li>
+               <li class="nav__links"><a href="#books">Books</a></li>
+               <li class="nav__links"><a href="#subOnly">Subsrcibers only</a></li>
+
+               <button class="nav__signUp button">Sign Up</button>
+               <button class="nav__login button">Login</button>
+            </ul>
+         </nav>
+
+      </div>
+   </header>
+
+   <section class="hero" id="home">
+      <div class="hero__text load-hidden">
+         <p class="hero__sub">Get comfy</p>
+         <h1 class="hero__header">Listen to millions of free<br>& premium audio books.</h1>
+         <p class="hero__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras molestie vel lacus vel sodales. Cras feugiat dolor vitae leo iaculi.</p>
+
+         <div class="hero__buttons">
+            <button class="hero__ctaPrimary button">Try it now</button>
+            <button class="hero__ctaSecondary button">Offerings</button>
+         </div>
+      </div>
+      
+      <div class="hero__illustration load-hidden">
+         <img src="./assets/protectors.png" alt="The First Protectors" class="hero__image">
+      </div>
+   </section>
+
+   <section class="features" id="books">
+      <div class="features__card load-hidden">
+         <svg class="features__card--svg" viewBox="0 0 84 83" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="38.5" cy="40.5" rx="38.5" ry="36.5" fill="#151111"/>
+            <g filter="url(#playbutotn_filter0-d-10-95)">
+            <path d="M58.1406 38.5676C59.401 39.3653 59.3763 41.2121 58.095 41.9757L30.2578 58.5662C28.9144 59.3669 27.2131 58.3852 27.2341 56.8214L27.688 22.9014C27.7089 21.3376 29.4358 20.4018 30.7573 21.2381L58.1406 38.5676Z" fill="#61F82C"/>
+            </g>
+            <defs>
+            <filter id="playbutotn_filter0-d-10-95" x="7.23389" y="0.925049" width="75.8372" height="81.9263" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+            <feOffset dx="2" dy="2"/>
+            <feGaussianBlur stdDeviation="11"/>
+            <feComposite in2="hardAlpha" operator="out"/>
+            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_10_95"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_10_95" result="shape"/>
+            </filter>
+            </defs>
+         </svg>
+         
+         <h1 class="features__card--title">Play/Pause audio books at your own pace.</h1>
+         <p class="features__card--desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras molestie vel lacus vel.</p>
+      </div>
+
+      <div class="features__card load-hidden">
+         <svg class="features__card--svg" viewBox="0 0 84 83" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="38.5" cy="40.5" rx="38.5" ry="36.5" fill="#151111"/>
+            <g filter="url(#playbutotn_filter0-d-10-95)">
+            <path d="M58.1406 38.5676C59.401 39.3653 59.3763 41.2121 58.095 41.9757L30.2578 58.5662C28.9144 59.3669 27.2131 58.3852 27.2341 56.8214L27.688 22.9014C27.7089 21.3376 29.4358 20.4018 30.7573 21.2381L58.1406 38.5676Z" fill="#61F82C"/>
+            </g>
+            <defs>
+            <filter id="playbutotn_filter0-d-10-95" x="7.23389" y="0.925049" width="75.8372" height="81.9263" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+            <feOffset dx="2" dy="2"/>
+            <feGaussianBlur stdDeviation="11"/>
+            <feComposite in2="hardAlpha" operator="out"/>
+            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_10_95"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_10_95" result="shape"/>
+            </filter>
+            </defs>
+         </svg>
+         <h1 class="features__card--title">Play/Pause audio books at your own pace.</h1>
+         <p class="features__card--desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras molestie vel lacus vel.</p>
+      </div>
+
+      <div class="features__card load-hidden">
+         <svg class="features__card--svg" viewBox="0 0 84 83" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="38.5" cy="40.5" rx="38.5" ry="36.5" fill="#151111"/>
+            <g filter="url(#playbutotn_filter0-d-10-95)">
+            <path d="M58.1406 38.5676C59.401 39.3653 59.3763 41.2121 58.095 41.9757L30.2578 58.5662C28.9144 59.3669 27.2131 58.3852 27.2341 56.8214L27.688 22.9014C27.7089 21.3376 29.4358 20.4018 30.7573 21.2381L58.1406 38.5676Z" fill="#61F82C"/>
+            </g>
+            <defs>
+            <filter id="playbutotn_filter0-d-10-95" x="7.23389" y="0.925049" width="75.8372" height="81.9263" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+            <feOffset dx="2" dy="2"/>
+            <feGaussianBlur stdDeviation="11"/>
+            <feComposite in2="hardAlpha" operator="out"/>
+            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_10_95"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_10_95" result="shape"/>
+            </filter>
+            </defs>
+         </svg>
+         <h1 class="features__card--title">Unable party mode to change the look of the app.</h1>
+         <p class="features__card--desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras molestie vel lacus vel.</p>
+      </div>
+   </section>
+
+   <section class="bestSeller">
+      <div class="bestSeller__illustration load-hidden">
+         <img src="./assets/protectors.png" alt="The First Protectors" class="hero__image">
+      </div>
+
+      <div class="bestSeller__text load-hidden">
+         <p class="bestSeller__sub">Best Seller</p>
+         <h1 class="bestSeller__header">Protectors</h1>
+         <p class="bestSeller__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras molestie vel lacus vel sodales. Cras feugiat dolor vitae leo iaculi.</p>
+
+         <div class="bestSeller__buttons">
+            <button class="bestSeller__ctaPrimary button">Buy now - $300</button>
+            <button class="bestSeller__ctaSecondary button">Add to Cart</button>
+         </div>
+      </div>
+   </section>
+
+   <section class="subOnly" id="subOnly">
+      <div class="subOnly__text load-hidden">
+         <p class="subOnly__sub">Subscribers only</p>
+         <h1 class="subOnly__header">We have launched our video streaming platform.</h1>
+         <p class="subOnly__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras molestie vel lacus vel sodales. Cras feugiat dolor vitae leo iaculi.</p>
+
+         <button class="subOnly__ctaPrimary button">Subscribe - $4000 / Sub</button>
+      </div>
+
+      <div class="subOnly__image--container load-hidden">
+         <a href="#home">
+            <svg class="subOnly__play" viewBox="0 0 154 151" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g filter="url(#palybuttonsuibonyl_filter0-d-14-97)">
+            <ellipse cx="75" cy="73.5" rx="55" ry="53.5" fill="#61F82C"/>
+            </g>
+            <g filter="url(#palybuttonsuibonyl_filter1-d-14-97)">
+            <path d="M100.044 72.1573C101.404 72.9271 101.396 74.8896 100.029 75.6472L63.2584 96.0271C61.9219 96.7678 60.2821 95.7969 60.2889 94.2689L60.4721 53.1821C60.4789 51.6541 62.1273 50.6978 63.4571 51.4504L100.044 72.1573Z" fill="#E8E4E4"/>
+            </g>
+            <defs>
+            <filter id="palybuttonsuibonyl_filter0-d-14-97" x="0" y="0" width="154" height="151" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+            <feOffset dx="2" dy="2"/>
+            <feGaussianBlur stdDeviation="11"/>
+            <feComposite in2="hardAlpha" operator="out"/>
+            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_14_97"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_14_97" result="shape"/>
+            </filter>
+            <filter id="palybuttonsuibonyl_filter1-d-14-97" x="40.2888" y="31.1881" width="84.7703" height="89.0926" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+            <feOffset dx="2" dy="2"/>
+            <feGaussianBlur stdDeviation="11"/>
+            <feComposite in2="hardAlpha" operator="out"/>
+            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_14_97"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_14_97" result="shape"/>
+            </filter>
+            </defs>
+            </svg>
+         </a>
+
+         <img src="./assets/subOnlyBg.png" class="subOnly__image">
+      </div>
+   </section>
+
+   <div class="upComing">
+      <div class="upComing__content">
+         <div class="upComing__text load-hidden">
+            <p class="upComing__sub">Up Coming book</p>
+            <h1 class="upComing__header">Luke & His Adventures.</h1>
+            <p class="upComing__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras molestie vel lacus vel sodales. Cras feugiat dolor vitae leo iaculi.</p>
+   
+            <form action="" class="upComing__form">
+               <label for="email">Enter Your Email!</label><br>
+               <input type="email" name="Email Input" id="email"><br>
+               <button class="upComing__ctaPrimary button">Get Notified!</button>
+            </form>
+         </div>
+
+         <div class="upComing__image--container load-hidden">
+            <img src="./assets/protectors.png" alt="The First Protectors" class="upComing__image">
+         </div>
+      </div>
+   </div>
+
+   <section class="signUp">
+      <div class="hero__illustration load-hidden">
+         <img src="./assets/protectors.png" alt="The First Protectors" class="hero__image">
+      </div>
+
+      <div class="signUp__text load-hidden">
+         <p class="signUp__sub">Sign Up now!</p>
+         <h1 class="signUp__header">Sign up to get access to millions of free & paid audio books.</h1>
+         <p class="signUp__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras molestie vel lacus.</p>
+
+         <div class="signUp__buttons">
+            <button class="signUp__ctaPrimary button">Sign Up</button>
+            <button class="signUp__ctaSecondary button">Login</button>
+         </div>
+      </div>
+   </section>
+
+   <script src="./js/main.js"></script>
+   
+</body>
+</html>
